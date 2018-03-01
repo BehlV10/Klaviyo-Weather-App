@@ -3,4 +3,4 @@
 - http://127.0.0.1:8000/subscribe/ is the subscription page
 - "python manage.py sendemails" should send off emails to all the users
 
-Let me know if you have any questions. Thanks!
+Let me know if you have any questions. My email is BehlV10@gmail.com. Thanks!
