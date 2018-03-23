@@ -1,111 +1,111 @@
 2012 rank,City,State
-1,New York,New York,
-2,Los Angeles,California,
-3,Chicago,Illinois,
-4,Houston,Texas,
-5,Philadelphia,Pennsylvania,
-6,Phoenix,Arizona,
-7,San Antonio,Texas,
-8,San Diego,California,
-9,Dallas,Texas,
-10,San Jose,California,
-11,Austin,Texas,
-12,Jacksonville,Florida,
-13,Indianapolis,Indiana,
-14,San Francisco,California,
-15,Columbus,Ohio,
-16,Fort Worth,Texas,
-17,Charlotte,North Carolina,
-18,Detroit,Michigan,
-19,El Paso,Texas,
-20,Memphis,Tennessee,
-21,Boston,Massachusetts,
-22,Seattle,Washington,
-23,Denver,Colorado,
-24,Washington,District of Columbia,
-25,Nashville,Tennessee,
-26,Baltimore,Maryland,
-27,Louisville,Kentucky,
-28,Portland,Oregon,
-29,Oklahoma,Oklahoma,
-30,Milwaukee,Wisconsin,
-31,Las Vagas,Nevada,
-32,Albuquerque,New Mexico,
-33,Tucson,Arizona,
-34,Fresno,California,
-35,Sacramento,California,
-36,Long Beach,California,
-37,Kansas City,Missouri,
-38,Mesa,Arizona,
-39,Virginia Beach,Virginia,
-40,Atlanta,Georgia,
-41,Colorado Springs,Colorado,
-42,Raleigh,North Carolina,
-43,Omaha,Nebraska,
-44,Miami,Florida,
-45,Oakland,California,
-46,Tulsa,Oklahoma,
-47,Omaha,Minnesota,
-48,Cleveland,Ohio,
-49,Omaha,Kansas,
-50,Arlington,Texas,
-51,Omaha,Louisiana,
-52,Bakersfield,California,
-53,Tampa,Florida,
-54,Honolulu,Hawaii,
-55,Anaheim,California,
-56,Aurora,Colorado,
-57,Santa Ana,California,
-58,St. Louis,Missouri,
-59,Riverside,California,
-60,Corpus Christi,Texas,
-61,Pittsburgh,Pennsylvania,
-62,Lexington,Kentucky,
-63,Anchorage,Alaska,
-64,Stockton,California,
-65,Cincinnati,Ohio,
-66,Saint Paul,Minnesota,
-67,Toledo,Ohio,
-68,Newark,New Jersey,
-69,Greensboro,North Carolina,
-70,Plano,Texas,
-71,Henderson,Nevada,
-72,Lincoln,Nebraska,
-73,Buffalo,New York,
-74,Fort Wayne,Indiana,
-75,Jersey City,New Jersey,
-76,Chula Vista,California,
-77,Orlando,Florida,
-78,St. Petersburg,Florida,
-79,Norfolk,Virginia,
-80,Chandler,Arizona,
-81,Laredo,Texas,
-82,Madison,Wisconsin,
-83,Durham,North Carolina,
-84,Lubbock,Texas,
-85,Winston–Salem,North Carolina,
-86,Garland,Texas,
-87,Glendale,Arizona,
-88,Hialeah,Florida,
-89,Reno,Nevada,
-90,Baton Rouge,Louisiana,
-91,Irvine,California,
-92,Chesapeake,Virginia,
-93,Irving,Texas,
-94,Scottsdale,Arizona,
-95,Las Vegas,Nevada,
-96,Fremont,California,
-97,Gilbert,Arizona,
-98,San Bernardino,California,
-99,Boise,Idaho,
+1,New York,New York
+2,Los Angeles,California
+3,Chicago,Illinois
+4,Houston,Texas
+5,Philadelphia,Pennsylvania
+6,Phoenix,Arizona
+7,San Antonio,Texas
+8,San Diego,California
+9,Dallas,Texas
+10,San Jose,California
+11,Austin,Texas
+12,Jacksonville,Florida
+13,Indianapolis,Indiana
+14,San Francisco,California
+15,Columbus,Ohio
+16,Fort Worth,Texas
+17,Charlotte,North Carolina
+18,Detroit,Michigan
+19,El Paso,Texas
+20,Memphis,Tennessee
+21,Boston,Massachusetts
+22,Seattle,Washington
+23,Denver,Colorado
+24,Washington,District of Columbia
+25,Nashville,Tennessee
+26,Baltimore,Maryland
+27,Louisville,Kentucky
+28,Portland,Oregon
+29,Oklahoma,Oklahoma
+30,Milwaukee,Wisconsin
+31,Las Vagas,Nevada
+32,Albuquerque,New Mexico
+33,Tucson,Arizona
+34,Fresno,California
+35,Sacramento,California
+36,Long Beach,California
+37,Kansas City,Missouri
+38,Mesa,Arizona
+39,Virginia Beach,Virginia
+40,Atlanta,Georgia
+41,Colorado Springs,Colorado
+42,Raleigh,North Carolina
+43,Omaha,Nebraska
+44,Miami,Florida
+45,Oakland,California
+46,Tulsa,Oklahoma
+47,Omaha,Minnesota
+48,Cleveland,Ohio
+49,Omaha,Kansas
+50,Arlington,Texas
+51,Omaha,Louisiana
+52,Bakersfield,California
+53,Tampa,Florida
+54,Honolulu,Hawaii
+55,Anaheim,California
+56,Aurora,Colorado
+57,Santa Ana,California
+58,St. Louis,Missouri
+59,Riverside,California
+60,Corpus Christi,Texas
+61,Pittsburgh,Pennsylvania
+62,Lexington,Kentucky
+63,Anchorage,Alaska
+64,Stockton,California
+65,Cincinnati,Ohio
+66,Saint Paul,Minnesota
+67,Toledo,Ohio
+68,Newark,New Jersey
+69,Greensboro,North Carolina
+70,Plano,Texas
+71,Henderson,Nevada
+72,Lincoln,Nebraska
+73,Buffalo,New York
+74,Fort Wayne,Indiana
+75,Jersey City,New Jersey
+76,Chula Vista,California
+77,Orlando,Florida
+78,St. Petersburg,Florida
+79,Norfolk,Virginia
+80,Chandler,Arizona
+81,Laredo,Texas
+82,Madison,Wisconsin
+83,Durham,North Carolina
+84,Lubbock,Texas
+85,Winstonï¿½Salem,North Carolina
+86,Garland,Texas
+87,Glendale,Arizona
+88,Hialeah,Florida
+89,Reno,Nevada
+90,Baton Rouge,Louisiana
+91,Irvine,California
+92,Chesapeake,Virginia
+93,Irving,Texas
+94,Scottsdale,Arizona
+95,Las Vegas,Nevada
+96,Fremont,California
+97,Gilbert,Arizona
+98,San Bernardino,California
+99,Boise,Idaho
 100,Birmingham,Alabama
-101,Rochester,New York,
-102,Richmond,Virginia,
-103,Spokane,Washington,
-104,Des Moines,Iowa,
-105,Montgomery,Alabama,
-106,Modesto,California,
-107,Fayetteville,North Carolina,
-108,Tacoma,Washington,
-109,Shreveport,Louisiana,
+101,Rochester,New York
+102,Richmond,Virginia
+103,Spokane,Washington
+104,Des Moines,Iowa
+105,Montgomery,Alabama
+106,Modesto,California
+107,Fayetteville,North Carolina
+108,Tacoma,Washington
+109,Shreveport,Louisiana
 110,Fontana,California
