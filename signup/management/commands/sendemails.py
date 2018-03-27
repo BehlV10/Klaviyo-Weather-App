@@ -10,43 +10,44 @@ from smtplib import SMTP, SMTPException
 import json
 
 class Command(BaseCommand):
-	help = 'Sends a mass email to all subscribers based on the weather.'
-	form = """<font color="blue" family="KaiTi, Sans Serif">Current weather for %s, %s: %.0f<sup>o</sup>F, %s</font>"""
-	form_image = """<br /> <br /><img src="cid:weather" alt="%s">"""
+    help = 'Sends a mass email to all subscribers based on the weather.'
+    form = """<font color="blue" family="KaiTi, Sans Serif">Current weather for %s, %s: %.0f<sup>o</sup>F, %s</font>"""
+    form_image = """<br /> <br /><img src="cid:weather" alt="%s">"""
+
+    image_fn = 'util/%d.png'
 	
-	image_fn = 'util/%d.png'
-	
-	def handle(self, *args, **options):
-		sender = 'behlv10weather@gmail.com'
+    def handle(self, *args, **options):
+        sender = 'behlv10weather@gmail.com'
 		email_dict = {}
 		is_day = datetime.now().time().hour in range(8, 20)
 		almanac_temp = 'temp_high' if is_day else 'temp_low'
 		
 		for ws in WeatherSubscription.objects.all():
-			city, state = ws.location.split(',')
+            city, state = ws.location.split(',')
 			api_url_name = ("http://api.wunderground.com/api/6e677fb094c89662/conditions/almanac/q/%s/%s.json" % (state, city)).replace(' ', '_')
 			api_url_file = None
 			try:
-				api_url_file = urlopen(api_url_name)
+			    api_url_file = urlopen(api_url_name)
 			except IOError as e:
-				print(ws.location + ' not providing a valid URL, continuing without email')
-				continue
+			    print(ws.location + ' not providing a valid URL, continuing without email')
+			    continue
 			
 			weather_dict = json.loads(urlopen(api_url_name).read().decode('utf-8'))
 			if 'error' in weather_dict:
-				print(ws.location + ' not providing a proper JSON response from Wunderground, continuing without email')
-				continue
+			    print(ws.location + ' not providing a proper JSON response from Wunderground, continuing without email')
+			    continue
 			
 			current_temp = float(weather_dict['current_observation']['temp_f'])
 			normal_temp = float(weather_dict['almanac'][almanac_temp]['normal']['F'])
 			weather_description = weather_dict['current_observation']['weather']
-			
 			subject = "Enjoy a discount on us."
 			
 			# http://www.wunderground.com/weather/api/d/docs?d=resources/phrase-glossary&MR=1#current_condition_phrases
-			if any(w in weather_description for w in {'Drizzle', 'Rain', 'Snow', 'Ice', 'Hail', 'Mist', 'Thunderstorm', 'Squalls', 'Sandstorm' }) \
-				or current_temp - normal_temp <= -5.0:
-				subject = "Not so nice out? That's okay, e" + subject[1:]
+			if any(w in weather_description for w in {'Drizzle', 'Rain', 'Snow', 
+													'Ice', 'Hail', 'Mist', 'Thunderstorm',
+													 'Squalls', 'Sandstorm' }) \
+			    or current_temp - normal_temp <= -5.0:
+			    subject = "Not so nice out? That's okay, e" + subject[1:]
 			elif weather_description == 'Clear' or current_temp - normal_temp >= 5.0:
 				subject = "It's nice out! " + subject
 			
@@ -79,7 +80,7 @@ class Command(BaseCommand):
 			email_dict[ws.email] = m
 		
 		s = SMTP('smtp.gmail.com', 587)
-		try:
+            try:
 			s.ehlo()
 			s.starttls()
 			s.ehlo()
